@@ -15,6 +15,6 @@ Header image - https://user-images.githubusercontent.com/26179770/106359099-693e
 Library used :- https://github.com/rstacruz/startup-name-generator
 
 Wireframe: https://wireframepro.mockflow.com/view/NameIT
-(Created a wirefrane using mockflow)
+(Created a wireframe using mockflow)
 
 _______________________________________________________________________________________________
