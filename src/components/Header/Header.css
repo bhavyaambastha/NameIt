@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 3rem 2rem 1rem 1rem;
+    margin: 3rem 4rem 1.5rem 1rem;
     
 }
 .head-image{
@@ -13,13 +13,13 @@
     width: 30rem;
 }
 .head-image-contracted{
-    width: 20rem;
+    width: 16rem;
 }
 .head-text{
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
     font-family: cursive;
-    margin: 1rem 10rem 1rem 15rem;
+    margin: 1rem 10rem 1rem 10rem;
     transition: font-size 1s;
 }
 .head-text-extended{
@@ -27,6 +27,6 @@
     
 }
 .head-text-contracted{
-    font-size: 2rem;
+    font-size: 1.6rem;
     
 }
