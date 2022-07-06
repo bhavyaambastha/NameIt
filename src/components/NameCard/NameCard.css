@@ -1,14 +1,13 @@
 .name-card{
-    margin: 2rem;
-    border: solid 1px rgb(10, 10, 10);
-    border-radius: 1rem;
-    background: #111827;
-    padding: 1px 15px 1px 15px;
-   
+    margin: 10px 12px;
+    border-radius: 12px;
+    background: #282c3a;
+    padding: 0.5px 12px 0.5px 12px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+    min-width: 75px;
 }
 .name-card:hover{
-    background-color: #444b5a;
-    font-size: 20px;
+    background-color: #596378;
     color:whitesmoke ;
     border: solid 1px rgb(138, 136, 136);
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
@@ -24,7 +23,7 @@
 
 }
 a:hover{
-    background-color: #444b5a;
+    background-color: #596378;
     color:whitesmoke ;
     border: none;
     

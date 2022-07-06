@@ -2,31 +2,33 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 3rem 4rem 1.5rem 1rem;
-    
+    margin: 5rem 2rem 2rem 1rem;
 }
 .head-image{
     width: auto;
-    transition: width 1s;
+    transition: max-width 1s, min-width 1s;
 }
 .head-image-extended{
-    width: 30rem;
-}
+    max-width: 320px;
+    min-width: 300px;
+} 
+
 .head-image-contracted{
-    width: 16rem;
+    max-width: 200px;
+    min-width: 180px;
 }
+
 .head-text{
     font-weight: 400;
     font-style: normal;
     font-family: cursive;
-    margin: 1rem 10rem 1rem 10rem;
+    margin: 1.5rem 1rem 1rem 1rem;
+    /* margin: 5px 0 15px 0; */
     transition: font-size 1s;
 }
 .head-text-extended{
-    font-size: 3rem;
-    
+    font-size: 2.2rem;    
 }
 .head-text-contracted{
-    font-size: 1.6rem;
-    
+    font-size: 1.3rem;    
 }

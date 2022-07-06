@@ -1,15 +1,22 @@
-.search-container{
-    margin: 1rem 10rem 1rem 25rem;
+.search-container {
+    display: flex;
     justify-content: center;
+    margin: 22px;
 }
+
 .search-bar{
-    padding: 1rem;
-    width: 40rem;
+    padding: 10px 12px;
+    width: 400px;
     border-radius: 1.5rem;
     border: none;
     font-size: 1rem;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
-input:focus{
+
+.input::placeholder {
+    color: #e0e1e7;
+}
+
+.input:focus {
     outline: none;
 }
